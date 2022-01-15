@@ -1,21 +1,126 @@
-let permissao
-permissao = 'gerente'
-switch (permissao) {
-    case 'comum':
-    console.log('usuário comum');
-    break
+// Receber uma quantidade de valores pra avaliar 
+// Função exibe se cada valor é par ou impar
+// exibirTipo(5)
+// function exibirTipo(limite) {
+//     for (let i = 0; i <= limite; i++){
+//         if (i % 2 === 0) {
+//             console.log(i, 'PAR')
+//         } else {
+//             console.log(i, 'IMPAR')
+//         }
+//     }
+// }
 
-    case 'gerente':
-    console.log('usuário gerente');
-    break
 
-    case 'diretor':
-    console.log('usuário diretor');
-    break
+// Velocidade máxima de até 70Km/h
+// A cada 5km/h acima do limte você ganha 1 ponto
+// Math.floor()
+// Caso pontos maior que 12 -> 'Carteira Suspendida' 
+// verificarVelocidade(180)
+// function verificarVelocidade(velocidade) {
+//     const velocidadeMaxima = 70
+//     const kmPorPonto = 5
+//     if (velocidade <= velocidadeMaxima) {
+//         console.log('Ok')
+//     } else {
+//         const pontos = Math.floor((velocidade - velocidadeMaxima) / kmPorPonto)
+//         if (pontos >= 12)
+//             console.log('Carteira Suspensa')
+//         else
+//             console.log('pontos', pontos)
+//     }
+// }
 
-    default:
-    console.log('Usuário não reconhecido!')
-}
+
+// Divsível por 3 => Fizz 
+// Divisível por 5 => Buzz 
+// Divisível por 3 e 5 => FizzBuzz
+// Não dvisível por 3 ou 5 => entrada
+// Não é um número => 'Não é um número'
+// const resultado = fizzBuzz(15)
+// console.log(resultado)
+// function fizzBuzz(entrada) {
+//     if (typeof entrada !== 'number') 
+//         return 'Não é um número'
+//     if ((entrada % 3 === 0) && (entrada % 5 === 0))
+//         return 'FizzBuzz'
+//     if (entrada % 3 === 0) 
+//         return 'Fizz'
+//     if (entrada % 5 === 0)
+//         return 'Buzz'
+//     return entrada 
+// }
+
+
+// Escreva uma função que usa 2 números e retorna o maior entre eles.
+// function maiorNumero(n1=0, n2=0) {
+//     return n1 > n2 ? n1 : n2  
+// }
+// console.log(maiorNumero(-2,-3))
+
+
+// 1.For
+// for(let i = 5; i >= 1; i--) {
+//     if(i % 2 !== 0){
+//         console.log(i)
+//     }
+// }
+
+// 2. while
+// let i = 5
+// while(i >= 1) {
+//     if(i % 2 !== 0){
+//         console.log(i)
+//     }
+//     i--
+// }
+
+// 3.do..while
+// let i = 0
+// do {
+//     console.log('Digitando!')
+//     i++
+// } while (i < 10)
+
+// 4. for-in
+// const pessoa = {
+//     nome: 'Jhonatan', 
+//     idade: 25
+// }
+// for(let chave in pessoa) {
+//     console.log(chave, pessoa['nome'])
+// }
+
+// const cores = ['Vermelho', 'Azul', 'Verde']
+// for (let indice in cores) {
+//     console.log(indice, cores[indice])
+// }
+
+// 5. for-of
+// const cores = ['Vermelho', 'Azul', 'Verde']
+// for(let cor of cores) {
+//     console.log(cor)
+// }
+
+
+// let permissao
+// permissao = 'gerente'
+// switch (permissao) {
+//     case 'comum':
+//     console.log('usuário comum');
+//     break
+
+//     case 'gerente':
+//     console.log('usuário gerente');
+//     break
+
+//     case 'diretor':
+//     console.log('usuário diretor');
+//     break
+
+//     default:
+//     console.log('Usuário não reconhecido!')
+// }
 
 
 // let hora = 12;
