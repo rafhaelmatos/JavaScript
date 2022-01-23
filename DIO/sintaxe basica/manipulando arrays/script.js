@@ -1,3 +1,4 @@
+// Objetos
 // • forEach() – itera um array;
 // • push() – add item no final do array;
 // • pop() – remove item no final do array;
